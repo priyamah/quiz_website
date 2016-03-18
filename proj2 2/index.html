@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Quiz Website</title>
+<meta charset="UTF-8">
+<script type="text/javascript" src="validator.js"> </script>
+<script type="text/javascript" src="questions.js"> </script>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload="upd_title()">
+	<div id="header1">
+		WELCOME TO THE QUIZ WEBSITE
+	</div>
+        <div id="header">
+           <div id="title">Title:</div>
+           <div id="demo">Date</div>
+           <div id="time" style="visibility:hidden">01:00</div>
+        </div>
+
+<div id="section">
+<div id="sec_title">Score Section</div>
+
+<div id="score_stats">
+<table style="left:20%;position:relative;border:2px solid black; background-color:yellow;width:70%">
+<tr>
+<td style="text-align:center;color:green;font-weight:900;font-size:1.5vw"> <label id="correct_qn">0</label></td>
+<td style="text-align:center;color:red;font-weight:900;font-size:1.5vw"> <label id="incorrect_qn">0</label></td>
+</tr>
+<tr>
+<td  style="text-align:center;color:green;font-weight:bold;">Correct Answers
+</td>
+<td  style="text-align:center;color:red;font-weight:bold;">Incorrect Answers
+</td>
+</tr>
+</table>
+</div>
+</div>
+
+
+<div id="section_qst">
+<div>Question Section</div>
+<div id="quest"></div>
+<div id="quest_form"></div>
+</div>
+
+<div id="section_control">
+<div class="sect_control_class" id="section_control1"><input type="button" class="button" onclick=ask_question() value="START" id="start"> </div>
+<div class="sect_control_class" id="section_control2"><input type="button" class="button" onclick=ask_next_question() value="NEXT" id="next"> </div>
+<div class="sect_control_class" id="section_control3"><input type="button" class="button" onclick=end_test() value="STOP" id="stop"></div>
+</div>
+
+<div id="footer">
+Copyright © Priya Maheshwari
+</div>
+
+</body>
+</html>
+

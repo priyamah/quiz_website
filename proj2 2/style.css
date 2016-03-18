@@ -1,0 +1,150 @@
+div #test{ border:#000 1px solid; padding:10px 40px 40px 40px; }
+.button-0,  .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vw;
+    font-weight: bold;
+    margin: 1% 2%;
+    cursor: pointer;
+    padding: 1%;
+    border-radius: 10px;
+    color: #FFF;
+    background-color: #3498DB;
+    width: 20%;
+    top: 10%;
+    float:left;
+    position:relative;
+}
+
+#header1 {
+        background-color:black;
+        color:white;
+        text-align:center;
+        padding:1%;
+        width:95%;
+        height:10%;
+        border-collapse:separate;
+        float:left;
+	margin-bottom:2px;
+	border-radius:25px;
+        font-size:4vw;
+        font-weight:bold;
+}
+#header {
+    	background-color:hsl(290,60%,70%);
+    	color:white;
+    	text-align:center;
+     	padding:1%;	
+    	width:95%;
+	height:5%;
+ 	border-collapse:separate;
+	float:left;
+	border-style:double;
+	border-radius:25px;
+        margin-bottom:2px;
+	font-size: 2.25vw;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	
+}
+
+#section {
+    	width:95%;
+    	text-align:justify;
+    	padding:1%;
+    	border-style:double;
+    	border-collapse:separate;
+	border-radius:25px;
+	float:left;
+        font-size: 1.25vw;
+	height:8%;
+}
+#sec_title {
+       width:95%;
+       height:8%;
+       font-size: 2vw;
+       font-weight:bold;
+       float:left;
+       position:relative;
+}
+#section_qst {
+	width:95%;
+        text-align:justify;
+        padding:1%;
+        border-style:double;
+        border-collapse:separate;
+        border-radius:25px;
+        float:left;
+	height:40%;
+        font-size:1.5vw;
+        font-weight: bold;
+
+}
+
+#quest {
+        margin-left: 15%;
+        font-size: 2vw;
+}
+ 
+#quest_form {
+        margin-left: 15%;
+        font-size: 1.5vw;
+        font-weight: bold;
+}
+#section_control {
+        width:95%;
+        padding-left:10%;
+        text-align:center;
+        padding:1%; 
+        border-style:double;
+        border-collapse:separate;
+        border-radius:25px;
+        float:left;
+ 	margin-bottom:5px;
+}
+.sect_control_class {
+        margin:  0% 25%;
+        width: 75%;
+}
+#footer {
+    	background-color:black;
+    	color:white;
+    	clear:both;
+    	text-align:center;
+	width:95%;	
+	height:3%;	 
+	border-radius:25px;	 
+ 	border-collapse:separate;
+	padding:1%;
+        font-size:2vw;
+}
+
+html, body{
+	background-image:url("bg2.jpeg");
+	width:95%;
+	height:100%;
+        padding:1%;
+        margin-left:2%;
+        margin-right:2%;
+}
+
+#title {
+	float:left;
+        width:60%;
+        position:relative;
+}
+
+#demo {
+        float:left; 
+}
+
+
+td{
+	width:50%;
+}
+
