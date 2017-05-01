@@ -2,7 +2,7 @@ div #test{ border:#000 1px solid; padding:10px 40px 40px 40px; }
 .button-0,  .button {
     background-color: #4CAF50; /* Green color */
     border: none;
-    color: white;
+    color: yellow;
     text-align: center;
     text-decoration: none;
     display: inline-block;
